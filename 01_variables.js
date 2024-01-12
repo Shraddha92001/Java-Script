@@ -6,7 +6,7 @@ accountCity = "varanasi"
 //accountID = 3 // not allowed
 console.log(accountID);
 accountEmail = "shree112@gmail.com"
-ccountPass = "111116"
+accountPass = "111116"
 accountCity = "lko"
 
 console.table([accountID, accountEmail, accountPass, accountCity])

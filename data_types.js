@@ -7,6 +7,7 @@ console.log(3 + 3)
 let name = "shraddha"
 let age = "22"
 let isLoggedin = false
+console.log(typeof isLoggedin)
 
 //number => 2 to 53
 //bigint = for very big values
