@@ -9,3 +9,4 @@ console.log(`hello my name is ${name} and my number is ${num}.`); //by using bac
 // declaring string
 const myname = new String("shree")
 console.log(myname);
+console.log(myname);
