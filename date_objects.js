@@ -37,4 +37,4 @@ console.log(date4);
 //geyYear()
 const date5 = birthday.getYear();
 console.log(date5);
-//date.now
+date.now
