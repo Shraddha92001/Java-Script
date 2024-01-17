@@ -15,6 +15,15 @@ d[Symbol.toPrimitive]("number"); // 0
 d[Symbol.toPrimitive]("default"); // "Thu Jan 01 1970 00:00:00 GMT+0000 (Coordinated Universal Time)"
 console.log(d);
 
+
+let mydate = new Date()
+console.log(mydate.toString());
+console.log(mydate.toISOString());
+console.log(mydate.toDateString());
+console.log(mydate.toLocaleDateString());
+console.log(mydate.toTimeString());
+console.log(mydate.toJSON());
+
 //*********************************************Date  METHODS***********************************************
 const birthday = new Date('August 19, 1975 23:15:30');
 
@@ -24,7 +33,7 @@ console.log(date1);
 
 //getDate()
 const date2 = birthday.getDate();
-console.log(date2);
+console.log(date2.toString());
 
 //getFullYear()
 const date3 = birthday.getFullYear();
