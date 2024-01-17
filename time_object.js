@@ -12,6 +12,3 @@ let newdate = new Date()
 console.log(newdate);
 console.log(newdate.getMonth() + 1);
 console.log(newdate.getday);
-console.log(newdate);
-console.log(newdate);
-console.log(newdate);
