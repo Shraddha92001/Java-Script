@@ -1,4 +1,4 @@
-// Nested scope 
+// Nested scope  in function
 function one() {
     const username = "shree"
 
