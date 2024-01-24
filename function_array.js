@@ -6,4 +6,4 @@ function getArray(myArray) { //... is rest and spread  ---- put all element in a
     return myArray[3]
 }
 console.log(getArray(Array))
-    //console.log(customer(2, 500, 6, 200, 400)) //access multiple all the value we use spread
+    //console.log(customer(2, 500, 6, 200, 400)) //access mnultiple all the value we use spread
