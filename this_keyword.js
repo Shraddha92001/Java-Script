@@ -7,5 +7,5 @@ const user = {
         console.log(` ${this.username},welcome to website`);
     }
 }
-user.wlcomeMSG
+user.we
 console.log(user);
