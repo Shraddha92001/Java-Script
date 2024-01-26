@@ -10,3 +10,16 @@ if (balance < 500) {
 } else {
     console.log("less then 120000");
 }
+
+//
+const loggedin = true
+const debitcard = true
+const loggedin_google = true
+const loggedin_email = true
+
+if (loggedin && debitcard) {
+    console.log(" allow to log in ");
+}
+if (loggedin_email && loggedin_google) {
+    console.log(" allow to log in ");
+}
