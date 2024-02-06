@@ -1,0 +1,45 @@
+.container{
+    height: 505px;
+    width: 525px;
+
+    background-color: cornflowerblue;
+    padding-left: 100px;
+}
+
+#height,
+#width{
+    width: 150px;
+    height: 25px;
+    margin-top: 30px;
+}
+
+#Weight-guide{
+    margin-left: 75px;
+    margin-top: 25px;
+}
+
+#result{
+    font-size: medium;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: chocolate;
+}
+
+button{
+    width: 150px;
+    height: 35px;
+    margin-top: 25px;
+    margin-left: 90px;
+    background-color:blanchedalmond;
+    padding: 1px 30px;
+    border-radius: 8px;
+    color:black;
+    font-size: medium;
+    text-decoration: dashed;
+    border: 2px solid;
+}
+
+h1{
+    padding-left: 35px;
+    padding-top: 25px;
+}
