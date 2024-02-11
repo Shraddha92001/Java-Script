@@ -1,0 +1,26 @@
+jQuery
+attachEvent()
+
+Event object 
+
+type
+timeStamp
+defaultPrevented
+
+target,
+toElement
+srcElement
+currentTarget
+
+ClientX
+clientY
+screenX
+screenY
+
+
+
+altkey
+ctrlkey
+shiftkey
+keyCode
+
