@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onmouseover</title>
+</head>
+<body>
+    <h1>JavaScript HTML Events</h1>
+    <h2>The onmouseover Attribute</h2>
+
+    <div onmouseover="Mover(this)" onmouseout="Mout(this)" style="background-color: aqua; width: 100px; height: 30px; padding: 40px;"> mouse over me</div>
+
+
+    <script>
+        function Mover(obj){
+            obj.innerHTML = "thank you"
+        }
+
+        function Mout(obj){
+            obj.innerHTML = "Byeeeeeeee"
+        }
+    </script>
+</body>
+</html>
