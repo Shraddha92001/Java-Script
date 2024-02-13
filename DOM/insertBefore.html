@@ -1,0 +1,29 @@
+<!-- // creating nw HTML getElementById -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>creating new html element </title>
+</head>
+<body>
+    <div id="div1">
+        <p id="p1"> hello this is paragraph....</p>
+        <p id="p2">this is another paragraph</p>
+    </div>
+
+    <script>
+        const para = document.createElement('h1'); // creating new element
+        const node = document.createTextNode(" this is new") // putting value in new element 
+        const node2 = document.createTextNode(" this is another  new child....")
+        para.appendChild(node2); 
+
+
+        const element = document.getElementById('div1');
+        const child = document.getElementById('p2')
+        element.insertBefore(para,child)
+    </script>
+</body>
+</html>
